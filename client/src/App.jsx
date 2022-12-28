@@ -97,10 +97,6 @@ function App() {
       }
 
       console.log(res.data.weather[0].main);
-
-      if (city === "") {
-        city = "Pune";
-      }
     }
     fetchData();
   }, [city]);
