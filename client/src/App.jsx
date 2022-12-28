@@ -34,7 +34,68 @@ function App() {
       setTemp(res.data.main.temp);
       setWeather(res.data.weather[0].main);
       setIcon(res.data.weather[0].icon);
-      
+
+      if (res.data.weather[0].main === "Clouds") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Clear") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Rain") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Snow") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Thunderstorm") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Drizzle") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Mist") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Smoke") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Haze") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Dust") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Fog") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Sand") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Ash") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Squall") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+      if (res.data.weather[0].main === "Tornado") {
+        document.body.style.backgroundImage =
+          "url('https://wallpaperaccess.com/full/134205.jpg')";
+      }
+
       console.log(res.data.weather[0].main);
 
       if (city === "") {
