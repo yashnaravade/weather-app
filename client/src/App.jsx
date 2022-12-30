@@ -112,7 +112,7 @@ function App() {
 
         <div class="row">
           <div class="col-md-12">
-            <div className="heading">
+            <div className="heading text-center mt-5 text-light">
               <h1>Weather App</h1>
             </div>
           </div>

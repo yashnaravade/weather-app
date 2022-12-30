@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-.heading{
-    font-size: 50px;
-    font-family: sans-serif;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 20px;
-    text-decoration-style: wavy;
-}
-
 .search-box {
   display: flex;
   justify-content: center;
