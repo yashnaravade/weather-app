@@ -4,7 +4,7 @@ This is a simple weather app that uses the OpenWeatherMap API to get the current
 
 ## Screenshot
 
-<img src= "./client/src/assets/demo.png">
+<img src= "./client/src/assets/demo1.png">
 
 ## Live Demo
 
