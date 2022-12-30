@@ -108,26 +108,38 @@ function App() {
   return (
     <>
       <div className="container">
-        <h1 className="heading">Weather App</h1>
-        <div className="search-box">
-          <img src={Pin} style={{ width: "40px" }} alt="pin" />
-          <input
-            type="text"
-            placeholder="City Name"
-            className="input-city"
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
-          />
-        </div>
+        
 
-        <div className="weather-box">
-          <div className="temp">{Math.round(temp - 273.15)}°C</div>
-          <img
-            src={`http://openweathermap.org/img/wn/${icon}@4x.png`}
-            alt="icon"
-            style={{ width: "120px" }}
-          />
-          <div className="weather">{weather}</div>
+        <div class="row">
+          <div class="col-md-12">
+            <div className="heading">
+              <h1>Weather App</h1>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+          <div class="col-md-6 bg-transparent">
+            <div className="search-box">
+              <img src={Pin} style={{ width: "40px" }} alt="pin" />
+              <input
+                type="text"
+                placeholder="City Name"
+                className="input-city"
+                value={city}
+                onChange={(e) => setCity(e.target.value)}
+              />
+            </div>
+
+            <div className="weather-box">
+              <div className="temp">{Math.round(temp - 273.15)}°C</div>
+              <img
+                src={`http://openweathermap.org/img/wn/${icon}@4x.png`}
+                alt="icon"
+                style={{ width: "120px" }}
+              />
+              <div className="weather">{weather}</div>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
         </div>
       </div>
     </>
