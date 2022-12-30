@@ -37,63 +37,63 @@ function App() {
 
       if (res.data.weather[0].main === "Clouds") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?clouds,sky')";
       }
       if (res.data.weather[0].main === "Clear") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?sky,open')";
       }
       if (res.data.weather[0].main === "Rain") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?rain,sky')";
       }
       if (res.data.weather[0].main === "Snow") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?snow,sky')";
       }
       if (res.data.weather[0].main === "Thunderstorm") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?thunderstorm,sky')";
       }
       if (res.data.weather[0].main === "Drizzle") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?drizzle,sky')";
       }
       if (res.data.weather[0].main === "Mist") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?mist,sky')";
       }
       if (res.data.weather[0].main === "Smoke") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?smoke,sky')";
       }
       if (res.data.weather[0].main === "Haze") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?haze,sky')";
       }
       if (res.data.weather[0].main === "Dust") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?dust,sky')";
       }
       if (res.data.weather[0].main === "Fog") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?fog,smoke,sky')";
       }
       if (res.data.weather[0].main === "Sand") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?sand,sky')";
       }
       if (res.data.weather[0].main === "Ash") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?ash,sky')";
       }
       if (res.data.weather[0].main === "Squall") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?squall,sky')";
       }
       if (res.data.weather[0].main === "Tornado") {
         document.body.style.backgroundImage =
-          "url('https://wallpaperaccess.com/full/134205.jpg')";
+          "url('https://source.unsplash.com/random/1920x1080/?tornado,sky')";
       }
 
       console.log(res.data.weather[0].main);
